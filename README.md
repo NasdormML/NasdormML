@@ -4,7 +4,7 @@ I'm a **Junior Data Scientist** passionate about solving problems using Machine 
 
 🔭 **Currently working on:** Developing a recommendation system using the MovieLens 100k dataset, with plans to delve deeper into NLP techniques.  
 🌱 **Next goal:** Explore advanced NLP models and apply them to real-world tasks.  
-📫 **How to reach me:** [Mail](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
+📫 **How to reach me:** [EMail](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
 
 ---
 
