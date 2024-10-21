@@ -31,6 +31,10 @@ Developed a regression model to predict housing prices using XGBoost. Conducted 
 - **Tech stack:** Python, Scikit-learn, XGBoost, Pandas
 - **Goal:** Assist realtors and banks in making more accurate property valuations.
 
+### [🎥 MovieLens-100K](https://github.com/NasdormML/MovieLens-100K)
+ Recommendation system for offering films that the user may like based on films he has already watched and possible evaluation of new films.
+- **Tech stack:** Python, Surprise(SVD), Pandas, GridSearchCV(Soon)
+
 ---
 
 ## 🤔 **What’s Next?**
