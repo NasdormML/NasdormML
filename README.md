@@ -6,9 +6,6 @@ I'm a **Junior Data Scientist** passionate about solving problems using Machine 
 🌱 **Next goal:** Explore advanced NLP models and apply them to real-world tasks.  
 📫 **How to reach me:** [EMail](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=NasdormML&theme=radical)](https://git.io/streak-stats)
-
-
 ---
 
 ## 🛠️ **Technologies & Tools:**
