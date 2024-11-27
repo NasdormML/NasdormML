@@ -33,7 +33,8 @@ Developed a regression model to predict housing prices using XGBoost. Conducted 
 
 ### [🎥 MovieLens-100K](https://github.com/NasdormML/MovieLens-100K)
  Recommendation system for offering films that the user may like based on films he has already watched and possible evaluation of new films.
-- **Tech stack:** Python, Surprise(SVD), Pandas, GridSearchCV(Soon)
+- **Tech stack:** Python, PySpark(ALS), LightGBM, Scikit-learn
+- **Goal:** Provide personalized movie recommendations by combining user-item interaction data with metadata.
 
 ---
 
