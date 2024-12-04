@@ -43,7 +43,6 @@ Developed a regression model to predict housing prices using XGBoost. Conducted 
 I'm currently focused on building a recommendation system based on the **MovieLens 100k dataset** using collaborative filtering techniques. In the near future, I plan to:
 - Transition into **NLP (Natural Language Processing)** and work on projects that involve sentiment analysis, text classification, and language models.
 - Apply cutting-edge NLP models such as transformers to solve complex language-based problems.
-- Try boost score in House Price Predict by use XGB + Light. 
 
 ---
 
