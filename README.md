@@ -10,7 +10,7 @@ I'm a **Junior Data Scientist** passionate about solving problems using Machine 
 
 ## 🛠️ **Technologies & Tools:**
 
-- **Languages:** Python (NumPy, Pandas, Scikit-learn, Scipy, PyTorch)
+- **Languages:** Python (NumPy, Pandas, Scikit-learn, Scipy, PyTorch, PySpark)
 - **Machine Learning:** XGBoost, LightGBM, Optuna, Surprise, Time Series Analysis
 - **Tools & Platforms:** Git, Docker, GitHub Actions (CI/CD), Kaggle
 - **Data Visualization:** Matplotlib, Seaborn
