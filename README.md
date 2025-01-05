@@ -2,54 +2,64 @@
 
 I'm a **Junior Data Scientist** passionate about solving problems using Machine Learning and Data Analytics. I specialize in regression tasks, time series forecasting, and actively participate in Kaggle competitions.
 
-🔭 **Currently working on:** Developing a recommendation system using the MovieLens 100k dataset, with plans to delve deeper into NLP techniques.  
-🌱 **Next goal:** Explore advanced NLP models and apply them to real-world tasks.  
-📫 **How to reach me:** [EMail](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
+🌍 **Currently working on:** A recommendation system using the MovieLens 100k dataset.  
+🌱 **Next goal:** Explore advanced NLP models to solve real-world challenges.  
+💎 **How to reach me:** [Email](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
 
 ---
 
-## 🛠️ **Technologies & Tools:**
+## 🔧 **Technologies & Tools:**
 
-- **Languages:** Python (NumPy, Pandas, Scikit-learn, Scipy, PyTorch, PySpark)
-- **Machine Learning:** XGBoost, LightGBM, Optuna, Surprise, Time Series Analysis
-- **Tools & Platforms:** Git, Docker, GitHub Actions (CI/CD), Kaggle
-- **Data Visualization:** Matplotlib, Seaborn
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-1.6-orange)
+![LightGBM](https://img.shields.io/badge/LightGBM-v3.3.2-green?logo=lightgbm)
+![ALS](https://img.shields.io/badge/ALS-Recommender-yellow)
+![Docker](https://img.shields.io/badge/Docker-4.37-blue)
+![PySpark](https://img.shields.io/badge/PySpark-3.5.4-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-green?logo=seaborn)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-success)
+
+
+- **Languages:** Python, SQL  
+- **Machine Learning:** XGBoost, LightGBM, Optuna, Time Series Analysis  
+- **Data Visualization:** Matplotlib, Seaborn  
+- **DevOps:** Docker, GitHub Actions
 
 ---
 
 ## 🏆 **Key Projects:**
 
-### [📊 Store Sales Forecasting (Top 450 on Kaggle)](https://github.com/NasdormML/Time_Series)
-Time series forecasting for retail store sales using XGBoost and custom feature engineering (lags, moving averages). Optimized with Optuna, achieving an RMSLE score of **0.75094**, placing me in the **top 450** on Kaggle.
+### [🔢 Store Sales Forecasting](https://github.com/NasdormML/Time_Series)
+Forecasting retail sales using XGBoost. Optimized with Optuna, achieving RMSLE **0.75094**, ranking in the **top 450** on Kaggle.
 
-- **Tech stack:** Python, XGBoost, Optuna, TimeSeriesSplit
-- **Goal:** Improve sales planning and inventory management for retailers.
+- **Tech stack:** Python, XGBoost, Optuna, TimeSeriesSplit  
+- **Goal:** Improve inventory management in retail.
 
 ### [🏠 House Price Prediction](https://github.com/NasdormML/House_price_try)
-Developed a regression model to predict housing prices using XGBoost. Conducted detailed EDA and optimized hyperparameters, reducing RMSE by **10%** through RandomizedSearchCV.
+Predicted housing prices using XGBoost, reducing RMSE by **10%** through RandomizedSearchCV.
 
-- **Tech stack:** Python, Scikit-learn, XGBoost, Pandas
-- **Goal:** Assist realtors and banks in making more accurate property valuations.
+- **Tech stack:** Python, Pandas, Scikit-learn, XGBoost  
+- **Goal:** Enhance property valuation accuracy for real estate.
 
-### [🎥 MovieLens-100K](https://github.com/NasdormML/MovieLens-100K)
- Recommendation system for offering films that the user may like based on films he has already watched and possible evaluation of new films.
-- **Tech stack:** Python, PySpark(ALS), LightGBM, Scikit-learn
-- **Goal:** Provide personalized movie recommendations by combining user-item interaction data with metadata.
+### [🎥 MovieLens Recommendation System](https://github.com/NasdormML/MovieLens-100K)
+Built a hybrid recommender using PySpark and LightGBM. Enhanced RMSE by **14%** (to **0.6625**).
 
----
-
-## 🤔 **What’s Next?**
-
-I'm currently focused on building a recommendation system based on the **MovieLens 100k dataset** using collaborative filtering techniques. In the near future, I plan to:
-- Transition into **NLP (Natural Language Processing)** and work on projects that involve sentiment analysis, text classification, and language models.
-- Apply cutting-edge NLP models such as transformers to solve complex language-based problems.
+- **Tech stack:** Python, PySpark, LightGBM  
+- **Goal:** Deliver personalized movie recommendations.
 
 ---
 
-## 📫 **Get in touch:**
+## 📊 **What’s Next?**
 
-Feel free to check out my projects or connect with me:
+- Transitioning into **NLP** to explore:
+  - Sentiment Analysis
+  - Language Models (Transformers, Hugging Face)
+- Participating in NLP-focused Kaggle competitions.
 
-- **Email:** [nasdorm.ml@inbox.ru](mailto:nasdorm.ml@inbox.ru)
-- **GitHub:** [NasdormML](https://github.com/NasdormML)
-- **Telegram:** [@Nasdorm](https://t.me/Nasdorm)
+---
+
+## 📢 **Connect with Me:**
+
+[![Email](https://img.shields.io/badge/Email-Contact-blue)](mailto:nasdorm.ml@inbox.ru)
+[![Telegram](https://img.shields.io/badge/Telegram-Contact-blue)](https://t.me/Nasdorm)
+[![GitHub](https://img.shields.io/badge/GitHub-NasdormML-green)](https://github.com/NasdormML)
