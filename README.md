@@ -51,12 +51,11 @@ Built a hybrid recommender using PySpark and LightGBM. Enhanced RMSE by **14%** 
 
 ## 📊 **What’s Next?**
 
-- Transitioning into **NLP** to explore:
-  - Sentiment Analysis
-  - Language Models (Transformers, Hugging Face)
-- Participating in NLP-focused Kaggle competitions.
+- Deep dive into **Deep Learning for Time Series**:
+  - Mastering **PyTorch LSTM** and its variants (e.g., Bidirectional LSTM, Stacked LSTM)
+  - Exploring advanced neural architectures for time series forecasting such as CNNs, Temporal Convolutional Networks (TCNs), and Transformers for sequential data
+- Participating in forecasting and sequential modeling challenges on Kaggle
 
----
 
 ## 📢 **Connect with Me:**
 
