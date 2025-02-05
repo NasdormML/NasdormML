@@ -3,7 +3,7 @@
 I'm a **Junior Data Scientist** passionate about solving problems using Machine Learning and Data Analytics. I specialize in regression tasks, time series forecasting, and actively participate in Kaggle competitions.
 
 🌍 **Currently working on:** A recommendation system using the MovieLens 100k dataset.  
-🌱 **Next goal:** Explore advanced NLP models to solve real-world challenges.  
+🌱 **Next goal:** Explore advanced DL models to solve real-world challenges.  
 💎 **How to reach me:** [Email](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
 
 ---
