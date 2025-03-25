@@ -11,13 +11,15 @@ I'm a **Junior Data Scientist** passionate about solving problems using Machine 
 ## 🔧 **Technologies & Tools:**
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-1.6-orange)
-![LightGBM](https://img.shields.io/badge/LightGBM-v3.3.2-green?logo=lightgbm)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange?logo=tensorflow)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-lightgreen?logo=fastapi)
+![XGBoost](https://img.shields.io/badge/XGBoost-1.6-orange?logo=xgboost)
+![LightGBM](https://img.shields.io/badge/LightGBM-3.3.2-green?logo=lightgbm)
 ![ALS](https://img.shields.io/badge/ALS-Recommender-yellow)
-![Docker](https://img.shields.io/badge/Docker-4.37-blue)
-![PySpark](https://img.shields.io/badge/PySpark-3.5.4-green)
+![Docker](https://img.shields.io/badge/Docker-4.37-blue?logo=docker)
+![PySpark](https://img.shields.io/badge/PySpark-3.5.4-green?logo=apachespark)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-green?logo=seaborn)
-![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-success)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-success?logo=githubactions)
 
 
 - **Languages:** Python, SQL  
