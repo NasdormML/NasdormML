@@ -10,16 +10,17 @@ I'm a **Junior Data Scientist** passionate about solving problems using Machine 
 
 ## 🔧 **Technologies & Tools:**
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange?logo=tensorflow)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115-lightgreen?logo=fastapi)
-![XGBoost](https://img.shields.io/badge/XGBoost-1.6-orange?logo=xgboost)
-![LightGBM](https://img.shields.io/badge/LightGBM-3.3.2-green?logo=lightgbm)
-![ALS](https://img.shields.io/badge/ALS-Recommender-yellow)
-![Docker](https://img.shields.io/badge/Docker-4.37-blue?logo=docker)
-![PySpark](https://img.shields.io/badge/PySpark-3.5.4-green?logo=apachespark)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-green?logo=seaborn)
-![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-success?logo=githubactions)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-FF6F00?logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-1.6-FB6201?logo=xgboost&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-3.3.2-5DBB46?logo=lightgbm&logoColor=white)
+![ALS](https://img.shields.io/badge/ALS_Recommender-FFD700?logo=spark&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-4.37-2496ED?logo=docker&logoColor=white)
+
+![PySpark](https://img.shields.io/badge/PySpark-3.5.4-E25A1C?logo=apachespark&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-4B77BE?logo=seaborn&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD_GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 
 - **Languages:** Python, SQL  
