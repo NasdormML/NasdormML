@@ -6,7 +6,7 @@ I’m a **Junior Data Scientist** passionate about time series forecasting and f
 
 ## 🌟 Spotlight: Moex\_predict
 
-[**Moex\_predict**](https://github.com/NasdormML/Moex_predict) is my flagship project, forecasting Moscow Exchange blue‑chip stocks (SBER, GAZP, LKOH) with cutting‑edge Transformer architectures and rigorous hyperparameter tuning.
+[**Moex_predict**](https://github.com/NasdormML/Moex_predict) is my flagship project, forecasting Moscow Exchange blue‑chip stocks (SBER, GAZP, LKOH) with cutting‑edge Transformer architectures and rigorous hyperparameter tuning.
 
 * **Performance:** MAPE **0.90%**, MaxErr **24.7 RUB** on hold‑out SBER data
 * **Features engineered:** RSI, MACD, Bollinger Bands, ATR, log‑returns, volatility, SMA
@@ -33,7 +33,7 @@ I’m a **Junior Data Scientist** passionate about time series forecasting and f
 
 ## 🏆 Key Projects
 
-### 🎯 Moex\_predict
+### 🎯 Moex_predict
 
 **Forecasting MOEX blue-chip stocks** (SBER, GAZP, LKOH) using Transformer models with advanced feature engineering and hyperparameter tuning.
 
