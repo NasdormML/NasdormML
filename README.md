@@ -1,67 +1,83 @@
-# Hi there! 👋
+# 👋 Hi, I’m NasdormML
 
-I'm a **Junior Data Scientist** passionate about solving problems using Machine Learning and Data Analytics. I specialize in regression tasks, time series forecasting, and actively participate in Kaggle competitions.
-
-🌍 **Currently working on:** A recommendation system using the MovieLens 100k dataset.  
-🌱 **Next goal:** Explore advanced DL models to solve real-world challenges.  
-💎 **How to reach me:** [Email](mailto:nasdorm.ml@inbox.ru) | [Telegram](https://t.me/Nasdorm)
+I’m a **Junior Data Scientist** passionate about time series forecasting and financial market analytics. I build end‑to‑end ML pipelines—from data ingestion and feature engineering to model deployment—for real‑world problems on MOEX.
 
 ---
 
-## 🔧 **Technologies & Tools:**
+## 🌟 Spotlight: Moex\_predict
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-FF6F00?logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-1.6-FB6201?logo=xgboost&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-3.3.2-5DBB46?logo=lightgbm&logoColor=white)
-![ALS](https://img.shields.io/badge/ALS_Recommender-FFD700?logo=spark&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-4.37-2496ED?logo=docker&logoColor=white)
+[**Moex\_predict**](https://github.com/NasdormML/Moex_predict) is my flagship project, forecasting Moscow Exchange blue‑chip stocks (SBER, GAZP, LKOH) with cutting‑edge Transformer architectures and rigorous hyperparameter tuning.
 
-![PySpark](https://img.shields.io/badge/PySpark-3.5.4-E25A1C?logo=apachespark&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-4B77BE?logo=seaborn&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI/CD_GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-
-
-- **Languages:** Python, SQL  
-- **Machine Learning:** XGBoost, LightGBM, Optuna, Time Series Analysis  
-- **Data Visualization:** Matplotlib, Seaborn  
-- **DevOps:** Docker, GitHub Actions
+* **Performance:** MAPE **0.90%**, MaxErr **24.7 RUB** on hold‑out SBER data
+* **Features engineered:** RSI, MACD, Bollinger Bands, ATR, log‑returns, volatility, SMA
+* **Modeling:** Encoder‑only Transformer with positional embeddings, ensemble strategies
+* **Optimization:** Optuna study targeting 95th percentile error
+* **Data handling:** Robust MOEX API pagination, caching, and preprocessing
+* **Deployment-ready:** FastAPI endpoint serving live predictions
 
 ---
 
-## 🏆 **Key Projects:**
+## 🔧 Tech Stack & Badges
 
-### [🔢 Store Sales Forecasting](https://github.com/NasdormML/Time_Series)
-Forecasting retail sales using XGBoost. Optimized with Optuna, achieving RMSLE **0.75094**, ranking in the **top 450** on Kaggle.
-
-- **Tech stack:** Python, XGBoost, Optuna, TimeSeriesSplit  
-- **Goal:** Improve inventory management in retail.
-
-### [🏠 House Price Prediction](https://github.com/NasdormML/House_price_try)
-Predicted housing prices using XGBoost, reducing RMSE by **10%** through RandomizedSearchCV.
-
-- **Tech stack:** Python, Pandas, Scikit-learn, XGBoost  
-- **Goal:** Enhance property valuation accuracy for real estate.
-
-### [🎥 MovieLens Recommendation System](https://github.com/NasdormML/MovieLens-100K)
-Built a hybrid recommender using PySpark and LightGBM. Enhanced RMSE by **14%** (to **0.6625**).
-
-- **Tech stack:** Python, PySpark, LightGBM  
-- **Goal:** Deliver personalized movie recommendations.
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python\&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0-EE4C2C?logo=pytorch\&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-3.0-000000?logo=optuna\&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2-F7931E?logo=scikit-learn\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-2.2.5-013243?logo=numpy\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10-11557C?logo=matplotlib\&logoColor=white)
+![Requests](https://img.shields.io/badge/Requests-2.31-000000?logo=python-requests\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi\&logoColor=white)
 
 ---
 
-## 📊 **What’s Next?**
+## 🏆 Key Projects
 
-- Deep dive into **Deep Learning for Time Series**:
-  - Mastering **PyTorch LSTM** and its variants (e.g., Bidirectional LSTM, Stacked LSTM)
-  - Exploring advanced neural architectures for time series forecasting such as CNNs, Temporal Convolutional Networks (TCNs), and Transformers for sequential data
-- Participating in forecasting and sequential modeling challenges on Kaggle
+### 🎯 Moex\_predict
 
+**Forecasting MOEX blue-chip stocks** (SBER, GAZP, LKOH) using Transformer models with advanced feature engineering and hyperparameter tuning.
 
-## 📢 **Connect with Me:**
+* **Performance:** MAPE **0.90%**, MaxErr **24.7 RUB** (SBER)
+* **Features:** RSI, MACD, Bollinger Bands, ATR, log-returns, volatility, SMA
+* **Model & Optimization:** Encoder-only Transformer, Optuna tuning on 95th percentile error, ensembling
+* **Deployment:** FastAPI service with Docker
 
-[![Email](https://img.shields.io/badge/Email-Contact-blue)](mailto:nasdorm.ml@inbox.ru)
-[![Telegram](https://img.shields.io/badge/Telegram-Contact-blue)](https://t.me/Nasdorm)
-[![GitHub](https://img.shields.io/badge/GitHub-NasdormML-green)](https://github.com/NasdormML)
+### 🔢 Store Sales Forecasting
+
+**Retail sales forecasting** for a major retailer using XGBoost and Optuna.
+
+* **Performance:** RMSLE **0.7509** (Top 450 on Kaggle)
+* **Tech:** Python, XGBoost, Optuna, TimeSeriesSplit
+* **Impact:** Improved demand planning and inventory management
+
+---
+
+## 🚀 My Workflow
+
+1. **Data Ingestion & Cleaning**: MOEX API pagination, missing‑value handling, caching raw data
+2. **Feature Engineering**: Technical indicators and statistical metrics for robust signal extraction
+3. **Model Development**: Transformer encoder with attention, custom positional encoding, fine‑tuned via Optuna
+4. **Ensembling & Calibration**: Combine multiple model seeds and architectures, quantile‑based aggregation
+5. **Evaluation & Monitoring**: Time‑series cross‑validation, custom loss for tail‑error minimization
+6. **Deployment**: FastAPI microservice for real‑time inference, Dockerized for scalability
+
+---
+
+## 🎯 Next Steps
+
+* Dive into **Temporal Fusion Transformers (TFT)** for multi‑horizon forecasting
+* Experiment with **Informer** and **Reformer** for long sequence efficiency
+* Integrate **real‑time market data streams** and sentiment features
+* Expand ensemble with **Gaussian Process** and **Bayesian Neural Nets** for uncertainty quantification
+
+---
+
+## 📬 Let’s Connect
+
+* ✉️ Email: [nasdorm.ml@inbox.ru](mailto:nasdorm.ml@inbox.ru)
+* 💬 Telegram: [@Nasdorm](https://t.me/Nasdorm)
+* 🐙 GitHub: [github.com/NasdormML](https://github.com/NasdormML)
+
+---
+
+> “Perfection is not attainable, but if we chase perfection we can catch excellence.” – Vince Lombardi
