@@ -1,4 +1,4 @@
-# 👋 Hi, I’m NasdormML
+# 👋 Hi, I’m Herman
 
 I’m a **Junior Data Scientist** passionate about time series forecasting and financial market analytics. I build end‑to‑end ML pipelines—from data ingestion and feature engineering to model deployment—for real‑world problems on MOEX.
 
@@ -35,7 +35,7 @@ I’m a **Junior Data Scientist** passionate about time series forecasting and f
 
 ### 🎯 Moex_predict
 
-**Forecasting MOEX blue-chip stocks** (SBER, GAZP, LKOH) using Transformer models with advanced feature engineering and hyperparameter tuning.
+**Forecasting MOEX blue-chip stocks** (SBER, GAZP, ROSN) using Transformer models with advanced feature engineering and hyperparameter tuning.
 
 * **Performance:** MAPE **0.90%**, MaxErr **24.7 RUB** (SBER)
 * **Features:** RSI, MACD, Bollinger Bands, ATR, log-returns, volatility, SMA
