@@ -1,7 +1,7 @@
 # 👋 Hi, I’m Herman
 ![CodeWarsBagde](https://www.codewars.com/users/Nasdorm/badges/large)
 
-I’m a **Junior Data Scientist** passionate about time series forecasting and financial market analytics. I build end‑to‑end ML pipelines—from data ingestion and feature engineering to model deployment—for real‑world problems on MOEX.
+I’m a **Data Scientist** passionate about time series forecasting and financial market analytics. I build end‑to‑end ML pipelines—from data ingestion and feature engineering to model deployment—for real‑world problems on MOEX.
 
 ---
 
