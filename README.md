@@ -1,84 +1,93 @@
-# 👋 Hi, I’m Herman
-![CodeWarsBagde](https://www.codewars.com/users/Nasdorm/badges/large)
+<h1 align="center">Hi, I’m Herman 👋</h1>
 
-I’m a **Data Scientist** passionate about time series forecasting and financial market analytics. I build end‑to‑end ML pipelines—from data ingestion and feature engineering to model deployment—for real‑world problems on MOEX.
+<p align="center">
+  <strong>Data Scientist focused on time-series forecasting, financial analytics, and production-oriented ML.</strong>
+</p>
 
----
+<p align="center">
+  <a href="mailto:nasdorm.ml@inbox.ru"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+  <a href="https://t.me/Nasdorm"><img src="https://img.shields.io/badge/Telegram-@Nasdorm-26A5E4?style=flat-square&amp;logo=telegram&amp;logoColor=white" alt="Telegram" /></a>
+  <a href="https://github.com/NasdormML"><img src="https://img.shields.io/badge/GitHub-NasdormML-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+</p>
 
-## 🌟 Spotlight: Moex\_predict
-
-[**Moex_predict**](https://github.com/NasdormML/Moex_predict) is my flagship project, forecasting Moscow Exchange blue‑chip stocks (SBER, GAZP, LKOH) with cutting‑edge Transformer architectures and rigorous hyperparameter tuning.
-
-* **Performance:** MAPE **0.90%**, MaxErr **24.7 RUB** on hold‑out SBER data
-* **Features engineered:** RSI, MACD, Bollinger Bands, ATR, log‑returns, volatility, SMA
-* **Modeling:** Encoder‑only Transformer with positional embeddings, ensemble strategies
-* **Optimization:** Optuna study targeting 95th percentile error
-* **Data handling:** Robust MOEX API pagination, caching, and preprocessing
-* **Deployment-ready:** FastAPI endpoint serving live predictions
+I build forecasting systems end to end—from reliable data collection and time-aware preprocessing to model training, experiment tracking, APIs, and containers. My main interests are **financial time series**, **demand forecasting**, and **reproducible MLOps**.
 
 ---
 
-## 🔧 Tech Stack & Badges
+## 🚀 Featured Project — [Moex_predict](https://github.com/NasdormML/Moex_predict)
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0-EE4C2C?logo=pytorch\&logoColor=white)
-![Optuna](https://img.shields.io/badge/Optuna-3.0-000000?logo=optuna\&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2-F7931E?logo=scikit-learn\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.2.3-150458?logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-2.2.5-013243?logo=numpy\&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10-11557C?logo=matplotlib\&logoColor=white)
-![Requests](https://img.shields.io/badge/Requests-2.31-000000?logo=python-requests\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi\&logoColor=white)
+**Moex_predict** is a modular, five-step closing-price forecasting system for Moscow Exchange equities such as **SBER, GAZP, and ROSN**.
 
----
+> **In plain English:** it turns market history and external context into a short-term price outlook, then makes the forecast available through a REST API.
 
-## 🏆 Key Projects
+### 📈 Published result
 
-### 🎯 Moex_predict
+**Best published SBER result: 0.90% MAPE**, improved from **1.20%**—a **25% relative reduction in average percentage error** in the [v1.5 experiment](https://github.com/NasdormML/Moex_predict/releases/tag/v1.5.0).
 
-**Forecasting MOEX blue-chip stocks** (SBER, GAZP, ROSN) using Transformer models with advanced feature engineering and hyperparameter tuning.
+<details>
+<summary><strong>Technical highlights</strong></summary>
 
-* **Performance:** MAPE **0.90%**, MaxErr **24.7 RUB** (SBER)
-* **Features:** RSI, MACD, Bollinger Bands, ATR, log-returns, volatility, SMA
-* **Model & Optimization:** Encoder-only Transformer, Optuna tuning on 95th percentile error, ensembling
-* **Deployment:** FastAPI service with Docker
+<br>
 
-### 🔢 Store Sales Forecasting
+| Area | Implementation |
+|---|---|
+| **Data pipeline** | MOEX ISS pagination, retries, local caching, market-index data, and USD/RUB context |
+| **Feature engineering** | Returns, volatility, lag features, RSI, MACD, Bollinger Bands, and ATR |
+| **Models** | Attention-LSTM, TCN, and Transformer encoder models for multi-step forecasting |
+| **Training** | Hydra experiment configs, Optuna tuning, Huber loss, AdamW, early stopping, pruning, and gradient clipping |
+| **Experiment tracking** | MLflow runs plus versioned model, scaler, and metadata artifacts |
+| **Model lifecycle** | Performance monitoring and staleness-based retraining logic |
+| **Serving** | FastAPI endpoints for training, prediction, model inventory, and health checks |
+| **Delivery** | Docker Compose plus unit and integration tests |
 
-**Retail sales forecasting** for a major retailer using XGBoost and Optuna.
+</details>
 
-* **Performance:** RMSLE **0.7509** (Top 450 on Kaggle)
-* **Tech:** Python, XGBoost, Optuna, TimeSeriesSplit
-* **Impact:** Improved demand planning and inventory management
+**Why it matters:** this is not only a forecasting notebook. It covers the full ML lifecycle—from raw market data to a reproducible, API-served prediction system.
 
----
-
-## 🚀 My Workflow
-
-1. **Data Ingestion & Cleaning**: MOEX API pagination, missing‑value handling, caching raw data
-2. **Feature Engineering**: Technical indicators and statistical metrics for robust signal extraction
-3. **Model Development**: Transformer encoder with attention, custom positional encoding, fine‑tuned via Optuna
-4. **Ensembling & Calibration**: Combine multiple model seeds and architectures, quantile‑based aggregation
-5. **Evaluation & Monitoring**: Time‑series cross‑validation, custom loss for tail‑error minimization
-6. **Deployment**: FastAPI microservice for real‑time inference, Dockerized for scalability
+[View repository →](https://github.com/NasdormML/Moex_predict)
 
 ---
 
-## 🎯 Next Steps
+## 🧩 Other Project
 
-* Dive into **Temporal Fusion Transformers (TFT)** for multi‑horizon forecasting
-* Experiment with **Informer** and **Reformer** for long sequence efficiency
-* Integrate **real‑time market data streams** and sentiment features
-* Expand ensemble with **Gaussian Process** and **Bayesian Neural Nets** for uncertainty quantification
+### [Store Sales Forecasting](https://github.com/NasdormML/Store_Sales_Forecasting)
 
----
+End-to-end retail demand forecasting with **XGBoost**, **Optuna**, and time-aware validation.
 
-## 📬 Let’s Connect
+- Achieved **RMSLE 0.75094** on the Kaggle test set
+- Improved over moving-average and linear-regression baselines by **15%**
+- Used lag, rolling, seasonal, and holiday features with `TimeSeriesSplit`
+- Added Pytest coverage, Docker packaging, and CI/CD automation
 
-* ✉️ Email: [nasdorm.ml@inbox.ru](mailto:nasdorm.ml@inbox.ru)
-* 💬 Telegram: [@Nasdorm](https://t.me/Nasdorm)
-* 🐙 GitHub: [github.com/NasdormML](https://github.com/NasdormML)
+[View repository →](https://github.com/NasdormML/Store_Sales_Forecasting)
 
 ---
 
-> “Perfection is not attainable, but if we chase perfection we can catch excellence.” – Vince Lombardi
+## 🛠 Core Toolkit
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-0064A5?style=flat-square&logo=xgboost&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Hydra](https://img.shields.io/badge/Hydra-89B8CD?style=flat-square&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-3F4F75?style=flat-square&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+---
+
+## 🔭 Current Focus
+
+Probabilistic forecasting, uncertainty estimation, and reinforcement learning for data-driven decision systems.
+
+---
+
+## 📬 Contact
+
+- **Email:** [nasdorm.ml@inbox.ru](mailto:nasdorm.ml@inbox.ru)
+- **Telegram:** [@Nasdorm](https://t.me/Nasdorm)
+
+[![Codewars](https://www.codewars.com/users/Nasdorm/badges/small)](https://www.codewars.com/users/Nasdorm)
