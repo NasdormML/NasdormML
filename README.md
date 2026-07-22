@@ -18,8 +18,6 @@ I build forecasting systems end to end—from reliable data collection and time-
 
 **Moex_predict** is a modular, five-step closing-price forecasting system for Moscow Exchange equities such as **SBER, GAZP, and ROSN**.
 
-> **In plain English:** it turns market history and external context into a short-term price outlook, then makes the forecast available through a REST API.
-
 ### 📈 Published result
 
 **Best published SBER result: 0.90% MAPE**, improved from **1.20%**—a **25% relative reduction in average percentage error** in the [v1.5 experiment](https://github.com/NasdormML/Moex_predict/releases/tag/v1.5.0).
